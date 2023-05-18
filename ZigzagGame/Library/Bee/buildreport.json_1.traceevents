@@ -1,0 +1,529 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684440989219839, "dur": 1747205, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440989220056, "dur": 10947, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440989231005, "dur": 30641, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440989261648, "dur": 616340, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440989877990, "dur": 1075975, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440990953966, "dur": 13077, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440990967939, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1684440989727290, "dur": 114047, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684440989728453, "dur": 33642, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684440989828710, "dur": 3765, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684440989832477, "dur": 8852, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684440989833031, "dur": 7636, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684440989844905, "dur": 1066, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684440989844298, "dur": 1693, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440990968173, "dur": 230, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684440989924436, "dur":1525, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440989925966, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684440989926011, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684440989926022, "dur":362, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684440989926399, "dur":475, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440989926874, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940019, "dur":319, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940338, "dur":71, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940409, "dur":152, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940561, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940569, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940571, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940577, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940578, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940583, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940584, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940587, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940588, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940592, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940593, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940596, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940597, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940601, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940602, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940605, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940605, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940610, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940611, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940614, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940615, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940619, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940620, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940625, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940626, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940631, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940632, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940635, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940636, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940641, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940656, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990940677, "dur":1387, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684440989927031, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440989927032, "dur":5039, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440989932089, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684440989932098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440989934787, "dur":963, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684440989935760, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684440989935867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440989936531, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684440989941715, "dur":2569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684440989944287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440989944690, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684440989945686, "dur":349910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684440990295601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440990295607, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684440990296913, "dur":145718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684440990442636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440990442644, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684440990444470, "dur":215158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684440990659634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684440990659645, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684440990663113, "dur":276906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989927509, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989927509, "dur":5071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989932591, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684440989932672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989936682, "dur":4966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1684440989941685, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684440989941745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989941768, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684440989944121, "dur":4071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684440989948195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989948199, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684440989949415, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1684440989949512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989950185, "dur":6396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1684440989956638, "dur":36504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440989993145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440989993240, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440989994113, "dur":51314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990045435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990045447, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990046660, "dur":27660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990074324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990074331, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990075097, "dur":13220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990088323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990088333, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990089153, "dur":14182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990103337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990103341, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990104235, "dur":15508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990119746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990119753, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990120642, "dur":43410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990164058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990164067, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990165085, "dur":284450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990449540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990449548, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990451491, "dur":195470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990646967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684440990646975, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684440990649248, "dur":290798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440989927100, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440989927100, "dur":5258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440989932358, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684440989932558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440989936663, "dur":4835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684440989941562, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684440989941694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440989941917, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684440989943774, "dur":75115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990018892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990018899, "dur":10219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990029146, "dur":35375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990064524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990064530, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990065225, "dur":19477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990084706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990084713, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990085535, "dur":17581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990103119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990103124, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990104075, "dur":15763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990119840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990119845, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990120816, "dur":163105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990283928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990283940, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990285462, "dur":376200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990661666, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684440990661676, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684440990663720, "dur":276286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440989927379, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440989927380, "dur":5627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440989933007, "dur":23547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684440989956559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440989956582, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684440989958216, "dur":28757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440989986975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440989987071, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440989989117, "dur":124464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990113587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440990113595, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990114448, "dur":44054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990158505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440990158511, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990159116, "dur":136091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990295215, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440990295226, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990296670, "dur":346559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990643233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684440990643241, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684440990644840, "dur":295194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440989927077, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440989927078, "dur":5294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440989932373, "dur":34917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684440989967294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440989967339, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684440989968880, "dur":65974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990034856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990034860, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990036023, "dur":14901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990050927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990050932, "dur":579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990051531, "dur":68504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990120037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990120040, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990120917, "dur":12472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990133394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990133402, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990134327, "dur":37553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990171883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990171889, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990172563, "dur":381265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990553831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990553838, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684440990554471, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684440990554494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990554533, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684440990555446, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990555462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990555465, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990556496, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990556515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990556520, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990557436, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990557454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990557458, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990557942, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1684440990557995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990558000, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1684440990558790, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1684440990559321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990559327, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1684440990560287, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990560307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990560312, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990561756, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990561797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990561802, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990562914, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990562941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990562945, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990563956, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1684440990563989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990563992, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1684440990564699, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990564718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990564722, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684440990565762, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1684440990565792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990565798, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1684440990566724, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990566756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990566763, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684440990567896, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1684440990567916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990567921, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1684440990568677, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1684440990568751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684440990568756, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1684440990569728, "dur":370271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440989927119, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440989927119, "dur":5218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440989932338, "dur":25162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1684440989957505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440989957602, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1684440989959093, "dur":36328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440989995429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440989995438, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440989996729, "dur":78397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990075128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440990075173, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990075777, "dur":54732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990130511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440990130518, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990131193, "dur":39439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990170638, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440990170646, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990171696, "dur":194115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990365819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440990365832, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990367701, "dur":283957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990651663, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684440990651674, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684440990653711, "dur":286269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440989927138, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440989927138, "dur":4941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440989932089, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684440989932303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440989936955, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684440989941662, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1684440989941744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440989941770, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1684440989943517, "dur":26453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440989969976, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440989970100, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440989976560, "dur":24166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990000734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990000745, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990001892, "dur":74608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990076502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990076507, "dur":511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990077030, "dur":21535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990098568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990098575, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990099326, "dur":29245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990128574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990128583, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990129361, "dur":20415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990149779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990149787, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990150755, "dur":206176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990356939, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990356953, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990357817, "dur":64530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990422351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990422366, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990423267, "dur":233553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990656829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684440990656846, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684440990660727, "dur":279299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440989927198, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440989927198, "dur":5673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440989932874, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1684440989932982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440989953882, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1684440989956134, "dur":30571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440989986711, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440989987129, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440989988757, "dur":16990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990005751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990005757, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990006948, "dur":27844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990034794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990034799, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990035972, "dur":74514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990110490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990110498, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990111351, "dur":16341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990127695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990127700, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990128579, "dur":20972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990149556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990149565, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990150551, "dur":22674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990173228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990173234, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990173955, "dur":375364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990549327, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990549342, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990550827, "dur":350988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990901819, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684440990901827, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684440990903528, "dur":36458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440989927156, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440989927156, "dur":4918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440989932089, "dur":55946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1684440989988043, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440989988382, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1684440989989126, "dur":14531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990003661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990003670, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990004452, "dur":12581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990017039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990017048, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990018278, "dur":36431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990054732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990054739, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990055507, "dur":11670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990067179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990067184, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990068046, "dur":34895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990102944, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990102966, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990103915, "dur":185700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990289621, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990289633, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990290795, "dur":315255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990606084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684440990606096, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684440990608203, "dur":331803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440989927191, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440989927192, "dur":5741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440989932935, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1684440989933010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440989954491, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1684440989955927, "dur":68754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990024688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440990024698, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990025939, "dur":23114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990049059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440990049069, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990049957, "dur":17064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990067025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440990067032, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990067877, "dur":106074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990173954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440990173961, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990174493, "dur":321657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990496159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440990496174, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990497690, "dur":159218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990656911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684440990656919, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684440990658736, "dur":281253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440989927390, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440989927391, "dur":5513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440989932906, "dur":31441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1684440989964354, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440989964376, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1684440989967074, "dur":140976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990108056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440990108066, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990108767, "dur":17097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990125870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440990125877, "dur":525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990126416, "dur":156878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990283302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440990283316, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990285371, "dur":342824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990628198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684440990628208, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684440990628913, "dur":311070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440989927404, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440989927404, "dur":5419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440989932825, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1684440989933047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440989955006, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1684440989956854, "dur":44373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990001230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440990001237, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990001986, "dur":115913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990117904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440990117912, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990119466, "dur":164654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990284129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440990284145, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990285678, "dur":214397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990500092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440990500098, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990501456, "dur":50234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990551693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440990551700, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990553311, "dur":30273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990583588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684440990583598, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684440990584972, "dur":355035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440989927444, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440989927444, "dur":5258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440989932704, "dur":22725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1684440989955432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440989955676, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1684440989956880, "dur":48838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990005723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990005733, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990006804, "dur":27738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990034547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990034556, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990035820, "dur":27460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990063285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990063292, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990064119, "dur":20155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990084279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990084289, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990085243, "dur":72830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990158077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990158084, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990158637, "dur":16852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990175492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990175498, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990176217, "dur":116716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990292938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990292944, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990294034, "dur":321285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990615324, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1684440990615334, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1684440990616486, "dur":323519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440989927417, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440989927418, "dur":5369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440989932790, "dur":34359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1684440989967153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440989967317, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1684440989968765, "dur":24294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440989993095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440989993243, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440989994144, "dur":20157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990014305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440990014313, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990015044, "dur":107312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990122363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440990122376, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990123436, "dur":180013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990303452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440990303459, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990305454, "dur":215509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990520972, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440990520986, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990522703, "dur":413904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990936634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1684440990936675, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1684440990939936, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":14, "ts":1684440990939938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440989927430, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440989927430, "dur":5348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440989932779, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1684440989933001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440989954978, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1684440989956716, "dur":182931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990139653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440990139661, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990140460, "dur":15379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990155860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440990155867, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990156774, "dur":27654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990184432, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440990184438, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990185280, "dur":299855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990485139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440990485146, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990487914, "dur":173612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990661531, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1684440990661543, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1684440990663659, "dur":276362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440989927478, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440989927479, "dur":5204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440989932688, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1684440989932890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440989957480, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1684440989959194, "dur":27670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440989986868, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440989987115, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440989988954, "dur":14081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440990003038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440990003044, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440990003872, "dur":440127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440990444006, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440990444019, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440990444991, "dur":181936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440990626934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1684440990626943, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Okan/Desktop/Yeni klasr (2)/ZzigzagGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1684440990628037, "dur":311978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684440990943405, "dur":1606, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684440990968435, "dur": 577, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684440990967921, "dur": 1104, "ph": "X", "name": "Write chrome-trace events", "args": {} },
